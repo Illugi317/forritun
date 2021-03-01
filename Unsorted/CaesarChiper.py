@@ -11,7 +11,7 @@ HIGH = ord("~") # 126
 
 # Every transmission starts with the line "Hail Caesar!" so the first letter, 
 # once decrypted, must be H.
-first_letter = line[0]
+first_letter = line1[0]
 # ...now find out what the key is
 h_num = ord('H')
 tnum = ord(first_letter)
